@@ -1,0 +1,18 @@
+# Thème monochrome : l'ambre (orange*) ne sert qu'au montant de la phrase de synthèse.
+[theme]
+base = "light"
+primaryColor = "#3f3f46"
+linkColor = "#3f3f46"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f4f4f5"
+textColor = "#18181b"
+borderColor = "#e4e4e7"
+orangeColor = "#d97706"
+orangeTextColor = "#b45309"
+# Pas de vert ni de bleu : alertes et badges éventuels restent gris.
+greenColor = "#52525b"
+blueColor = "#52525b"
+chartCategoricalColors = ["#71717a"]
+
+[browser]
+gatherUsageStats = false

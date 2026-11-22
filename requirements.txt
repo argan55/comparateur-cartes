@@ -1,0 +1,5 @@
+# Bibliothèques du projet (installer avec : pip install -r requirements.txt)
+pandas>=2.2       # tableaux (transactions, répartition des dépenses)
+streamlit>=1.67   # interface web (paramètres alt=, title=, alignment récents)
+altair>=5         # graphique du classement
+pytest>=8.3       # tests

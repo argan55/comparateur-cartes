@@ -1,0 +1,8 @@
+{
+    // Utiliser le Python du projet (.venv), qui contient pytest, pandas, etc.
+    "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+    // Activer l'onglet « Testing » de VS Code avec pytest
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestArgs": ["tests"]
+}

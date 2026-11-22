@@ -1,0 +1,4 @@
+# Configuration de pytest : permet aux tests d'importer « src.desjardins ».
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

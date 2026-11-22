@@ -1,0 +1,18 @@
+# --- Vie privée : NE JAMAIS COMMITER LES RELEVÉS RÉELS ---
+data/prive/
+# Par prudence, aucun CSV dans data/ sauf les tables publiques des cartes
+data/*.csv
+!data/cartes.csv
+!data/taux.csv
+
+# Environnement virtuel
+.venv/
+# Fichiers Python compilés
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets Streamlit (aucun en v1, par prudence)
+.streamlit/secrets.toml
+# Corrections de catégories téléchargées (noms de marchands personnels)
+corrections_categories*.csv
